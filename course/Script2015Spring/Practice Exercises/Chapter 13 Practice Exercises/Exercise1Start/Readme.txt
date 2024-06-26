@@ -1,1 +1,0 @@
-This folder is intentionally empty as you start the lab by creating a new Web applicaiton.
