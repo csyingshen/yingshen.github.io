@@ -1,0 +1,380 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>Pattern Recognition(Fall 2017)</title>
+</head>
+<link rel="stylesheet" type="text/css" href="course.css" media="all" />
+<body>
+
+<h1>Pattern Recognition (Fall 2017)</h1>
+<h2>Administrative Matters</h2>
+	<p>Instructor: Dr. Ying Shen (沈莹) (<a href="mailto:yingshen@tongji.edu.cn">yingshen@tongji.edu.cn</a>)</p>
+	<p>Evaluation: assignments(40%), project (55%), participation (5%)</p>
+<h2>Latest Notices</h2>
+<ul><font color="#FF0000" size="5pt"></font></ul>
+<h2>Lecture Slides</h2>
+<table border="1" width="93%" id="table1" >
+	<tr>
+		<td width="199" align="center" bgcolor="#C0C0C0"></td>
+		<td width="460" align="center" bgcolor="#C0C0C0"><p><font style="font-weight: 700">Slides</font></p></td>
+		<td align="center" bgcolor="#C0C0C0"><p><font style="font-weight: 700">Related Materials</font></p></td>
+	</tr>
+	<tr>
+		<td width="199" align="center" height="107">
+			<img border="0" src="img/iris.png" height="100"></td>
+		<td width="460" align="center" height="37">
+			<p><a href="slides/chapter 1 Introduction.pptx">Introduction</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="slides/data.pptx">Data</a></p>
+			<p><a href="tutorials/tut1.pdf">Tutorial 01</a></p>
+			<p><a href="tutorials/tut2.pdf">Tutorial 02</a></p>
+		</td>
+		<td height="37">
+			<p align="left">1. <a href="http://archive.ics.uci.edu/ml/">UCI Machine Learning Repository</a></p>
+			<p align="left">2. <a href="references/PCA.pdf">A tutorial on Principal Components Analysis</a></p>
+			<p align="left">3. <a href="references/Feature selection techniques in bioinformatics.pdf">Feature selection techniques in bioinformatics</a></p>
+		</td>
+	</tr>
+	<tr>
+		<td width="199" align="center" height="107">
+		</td>
+		<td width="460" align="center" height="37">
+			<p><a href="slides/chapter 2 Model Evaluation.pptx">Model evaluation and selection</a></p>
+		</td>
+		<td align="left" height="37">
+		</td>
+	</tr>
+	<tr>
+		<td width="199" align="center" height="107">
+			<img border="0" src="img/linearmodel.png" height="100">
+		</td>
+		<td width="460" align="center" height="37">
+			<p><a href="slides/chapter 3 Linear Model.pptx">Linear model</a></p>
+			<p><a href="tutorials/tut3.pdf">Tutorial 03</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="slides/Lab 1.pptx">Lab 1</a></p>
+			<p><a href="assignments/assignment1.pdf">Assignment 1</a> due date: Nov. 1</p>
+		</td>
+		<td align="left" height="37">
+		<p><a href="lab/fisherLDAExperiment.m">fisherLDAExperiment.m</a></p>
+		</td>
+	</tr>
+	<tr>
+		<td width="199" align="center" height="37">
+			<img border="0" src="img/tree.png" width="198" height="152">
+		</td>
+		<td width="460" align="center" height="37">
+			<p><a href="slides/chapter 4 Decision Tree.pptx">Decision Tree</a></p>
+			<p><a href="tutorials/tut4.pdf">Tutorial 04</a>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+		</td>
+		<td align="left" height="37">
+		<p><a href="http://pages.cs.wisc.edu/~olvi/uwmp/msmt.html">Decision tree implemented in matlab code</a></p>
+		<p><a href="http://pages.cs.wisc.edu/~olvi/uwmp/msmt">Source codes directory</a></p>
+		</td>
+	</tr>
+	<tr>
+		<td width="199" align="center" height="107">
+			<img border="0" src="img/neural-network.png" width="198">
+		</td>
+		<td width="460" align="center" height="37">
+			<p><a href="slides/chapter 5 Neural Network.pptx">Neural network</a></p>
+		</td>
+		<td align="left" height="37">
+		</td>
+	</tr>
+	<tr>
+		<td width="199" align="center" height="107">
+			<img border="0" src="img/SVM.png" width="100">
+		</td>
+		<td width="460" align="center" height="37">
+			<p><a href="slides/chapter 6 SVM.pptx">SVM</a></p>
+			<p><a href="slides/Lab 2.pptx">Lab 2</a></p>
+		</td>
+		<td align="left" height="37">
+		</td>
+	</tr>
+	<tr>
+		<td width="199" align="center" height="107">
+		</td>
+		<td width="460" align="center" height="37">
+			<p><a href="slides/chapter 8 Ensumble Learning.pptx">Ensumble Learning</a></p>
+		</td>
+		<td align="left" height="37">
+		</td>
+	</tr>
+	<tr>
+		<td width="199" align="center" height="107">
+			<img border="0" src="img/kmeans.png" height="102">
+		</td>
+		<td width="460" align="center" height="100">
+			<p><a href="slides/chapter 9 Cluster Analysis.pptx">Clustering Analysis</a></p>
+			<p><a href="tutorials/tut5.pdf">Tutorial 05</a>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+			<p><a href="assignments/assignment3.pdf">Assignment 3</a> due date: Dec. 23</p>
+		</td>
+		<td align="left" height="100">
+		<p>　</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="199" align="center" height="107">
+		</td>
+		<td width="460" align="center" height="37">
+			<font face="Calibri" style="font-size: 11pt"><a>Dimension Reduction</a></font></td>
+		<td align="left" height="37">
+		</td>
+	</tr>
+	<tr>
+		<td width="199" align="center" height="39">
+	<img border="0" src="img/machinelearning.jpg" width="275" height="172"></td>
+		<td width="373" align="center" height="39">
+	<p style="margin-top: 0; margin-bottom: 8px">
+	　<p style="margin-top: 0; margin-bottom: 8px">
+	<span style="font-family: Calibri" lang="en-us">
+	<a href="slides/Lecture%2001%20Basics%20for%20Machine%20Learning%20and%20A%20Special%20Emphasis%20on%20CNN.pdf">Basics 
+	for Machine Learning and A Special Emphasis on CNN</a></span><p style="margin-top: 0; margin-bottom: 8px" align="justify">
+	<a href="assignments/assignment2.pdf">Assignment 2</a> due date: Nov. 
+	29，2017 (For problem 1, send your solution to the 'Assignment Email'; for 
+	problem 2, I will check your results personally in our lecture time.)</td>
+		<td align="left" height="39">
+		<ol>
+			<li>
+			<p style="margin-top: 0; margin-bottom: 8px"><span lang="en-us">
+			<font face="Calibri"><a href="demos/linear%20regression.zip">Demo for linear regression</a></font></span></p>
+			</li>
+			<li>
+			<p style="margin-top: 0; margin-bottom: 8px"><span lang="en-us">
+			<font face="Calibri"><a href="demos/softmax%20regression.zip">Demo for softmax regression</a></font></span></li>
+			<li>
+			<p style="margin-top: 0; margin-bottom: 8px"><span lang="en-us">
+			<font face="Calibri">
+			<a href="http://alexminnaar.com/deep-learning-basics-neural-networks-backpropagation-and-stochastic-gradient-descent.html">An easy tutorial for understanding backpropagation</a></font></span></li>
+			<li>
+			<p style="margin-top: 0; margin-bottom: 8px"><span lang="en-us">
+			<font face="Calibri"><a href="http://caffe.berkeleyvision.org/">Caffe: The most widely used 
+		deep learning framework</a></font></span></li>
+			<li>
+			<p style="margin-top: 0; margin-bottom: 8px"><span lang="en-us">
+			<font face="Calibri">
+			<a href="https://github.com/BVLC/caffe/tree/windows">Windows Caffe</a>,&nbsp;<a href="http://sse.tongji.edu.cn/linzhang/CV/ReadingMaterials/Note%20for%20DL%20Tools%20(for%20CV%20course).pdf">Installation 
+			Guide</a></font></span></li>
+			<li>
+			<p style="color: rgb(0, 0, 0); font-family: Microsoft YaHei; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; margin-top: 0px; margin-bottom: 8px">
+			<span lang="en-us"><font face="Calibri">
+			<a href="http://sse.tongji.edu.cn/linzhang/CV/demos/digit%20classification%20demo.zip">
+			Digit classification demo</a>. Classify an image with a digit using 
+			your trained LeNet. (For instructions, refer to Installation Guide)</font></span></li>
+			<li>
+			<p style="color: rgb(0, 0, 0); font-family: Microsoft YaHei; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; margin-top: 0px; margin-bottom: 8px">
+			<span lang="en-us"><font face="Calibri">
+			<a href="http://sse.tongji.edu.cn/linzhang/CV/demos/cifar10%20test%20demo.zip">
+			Cifar10 test demo</a>. Classify an image using your trained Cifar10 
+			network. (For instructions, refer to Installation Guide)</font></span></li>
+			<li>
+			<p style="color: rgb(0, 0, 0); font-family: Microsoft YaHei; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; margin-top: 0px; margin-bottom: 8px">
+			<span lang="en-us"><font face="Calibri">
+			<a href="http://sse.tongji.edu.cn/linzhang/CV/demos/selfdata%20training.zip">
+			Self Data Training</a>. This ZIP file contains all the necessary 
+			files to conduct self-data training mentioned in Installation Guide.</font></span></li>
+			<li>
+			<p style="margin-top: 0; margin-bottom: 8px"><span lang="en-us">
+			<font face="Calibri">K. He et al.,
+			<a href="readings/Deep%20Residual%20Learning%20for%20Image%20Recognition.pdf">Deep Residual Learning for Image Recognition</a>, CVPR 2016</font></span></li>
+			<li>
+			<p style="margin-top: 0; margin-bottom: 8px"><span lang="en-us">
+			<font face="Calibri">G. Huang et al.,
+			<a href="readings/Densely%20Connected%20Convolutional%20Networks.pdf">Densely Connected Convolutional Networks</a>, CVPR 2017</font></span></li>
+			<li>
+			<p style="margin-top: 0; margin-bottom: 8px"><font face="Calibri">J. 
+			Redmon et al., <span lang="en-us">
+			<a href="readings/Yolo%209000%20better%20faster%20stronger.pdf">Yolo: 9000 better faster stronger</a>, CVPR 2017</span></font></li>
+			<li>
+			<p style="margin-top: 0; margin-bottom: 8px"><span lang="en-us">
+			<font face="Calibri">Learn to configure YoloV2 and try to solve your 
+			own detection task,
+		<a href="https://github.com/AlexeyAB/darknet">https://github.com/AlexeyAB/darknet</a></font></span></li>
+		</ol>
+		</td>
+	</tr>
+	<tr>
+		<td width="199" align="center" height="107">
+		<img border="0" src="autocar.jpg" width="275" height="176"></td>
+		<td width="460" align="center" height="37">
+			<font face="Calibri" style="font-size: 11pt"><a href="slides/Lecture%2002%20Applications%20of%20CNNs.pdf">
+			Applications of CNNs</a></font></td>
+		<td align="left" height="37">
+		<ol>
+			<li>
+			<p style="margin-top: 0; margin-bottom: 8px"><span lang="en-us">
+			<font face="Calibri">Linshen Li and Lin Zhang* et al.,.,
+			<a href="readings/psICME.pdf">Vision-based parking-slot detection: A 
+			benchmark and a learning-based approach</a>, ICME, 2017</font></span></p>
+			</li>
+			<li>
+			<p style="margin-top: 0; margin-bottom: 8px"><span lang="en-us">Z. Cao et al.,
+			<a href="readings/Realtime%20Multi-Person%202D%20Pose%20Estimation%20using%20Part%20Affinity%20Fields.pdf">Realtime multi-person 2D pose estimation using part affinity fields</a>, 
+			CVPR 2017</span></li>
+			<li>
+			<p style="margin-top: 0; margin-bottom: 8px"><span lang="en-us">CMU OpenPose Libary,
+			<a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose">https://github.com/CMU-Perceptual-Computing-Lab/openpose</a>&nbsp; 
+			</span></li>
+		</ol>
+		</td>
+	</tr>
+	<tr>
+		<td width="199" align="center" height="107">
+		<img src="https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/raw/master/imgs/horse2zebra.gif" width="272" height="128"></td>
+		<td width="460" align="center" height="37">
+			<p>
+			<a href="slides/Lecture%2003%20GANs%20and%20Their%20Applications%20in%20Image%20Generation.pdf">GANs 
+			and Their Applications in Image Generation</a></p>
+		</td>
+		<td align="left" height="37">
+		<ol>
+			<li>
+			<p style="margin-top: 0; margin-bottom: 8px"><span lang="en-us">I<font face="Calibri">.J. 
+			Goodfellow et al.,
+			<a href="readings/generative%20adversarial%20nets.pdf">Generative 
+			adversarial nets</a>, NIPS, 2014</font></span></p>
+			</li>
+			<li>
+			<p style="margin-top: 0; margin-bottom: 8px"><span lang="en-us">A. 
+			Radford et al.,
+			<a href="readings/unsupervised%20representation%20learning%20with%20deep%20convolutional%20generative%20adversarial%20networks.pdf">
+			Unsupervised representation learning with deep convolutional 
+			generative adversarial networks</a>, ICLR, 2016</span></p>
+			</li>
+			<li>
+			<p style="margin-top: 0; margin-bottom: 8px"><span lang="en-us">M. 
+			Arjovsky et al.,
+			<a href="readings/Towards%20Principled%20Methods%20for%20Training%20Generative%20Adversarial%20Networks.pdf">Towards principled methods for training generative adversarial 
+			networks</a>, 
+			ICLR, 2017</span></p>
+			</li>
+			<li>
+			<p style="margin-top: 0; margin-bottom: 8px"><span lang="en-us">M. 
+			Arjovsky et al., <a href="readings/Wasserstein%20GAN.pdf">
+			Wasserstein GAN</a>, 
+			arXiv, 2017</span></li>
+			<li>
+			<p style="margin-top: 0; margin-bottom: 8px"><span lang="en-us">I. 
+			Gulrajani et al.,
+			<a href="readings/Improved%20Training%20of%20Wasserstein%20GANs.pdf">
+			Improved training of Wasserstein GANs</a>, arXiv, 2017</span></li>
+			<li>
+			<p style="margin-top: 0; margin-bottom: 8px"><span lang="en-us">P. 
+			Isola, J. Zhu, T. Zhou, and A.A. Efros,
+			<a href="readings/Image-To-Image_Translation.pdf">Image-to-image 
+			translation with conditional adversarial networks</a>, CVPR, 2017</span></li>
+			<li>
+			<p style="margin-top: 0; margin-bottom: 8px"><span lang="en-us">J. 
+			Zhu et al.,
+			<a href="readings/unpaired%20image-to-image%20translation%20using%20cycle-consistent%20adversarial%20networks.pdf">
+			Unpaired image-to-image translation using cycle-consistent 
+			adversarial networks</a>, arXiv, 2017</span></li>
+			<li>
+			<p style="margin-top: 0; margin-bottom: 8px"><span lang="en-us">C. 
+			Ledig et al.,
+			<a href="readings/Photo-Realistic%20Single%20Image%20Super-Resolution%20Using%20a%20Generative%20Adversarial%20Network.pdf">
+			Photo-realistic single image super-resolution using a generative 
+			adversarial network</a>, CVPR, 2017</span></li>
+			<li>
+			<p style="margin-top: 0; margin-bottom: 8px"><span lang="en-us">A. 
+			Shrivastava et al.,
+			<a href="readings/Learning%20from%20Simulated%20and%20Unsupervised%20Images%20through%20Adversarial%20Training.pdf">
+			Learning from simulated and unsupervised images through adversarial 
+			training</a>, CVPR, 2017</span></li>
+		</ol>
+		</td>
+	</tr>
+	<tr>
+		<td width="199" align="center" height="100">
+			<p>　</p>
+			<p>　</p>
+		</td>
+		<td width="460" align="center" height="100">
+			<p><a href="slides/matlab tutorial.pdf">*Matlab Tutorial</a></p>
+			<p><a href="slides/example.zip">Examples for Matlab Tutorial</a></p>
+		</td>
+		<td align="left" height="100">
+		<p><a href="references/A matlab tutorial 2012.pdf">A matlab tutorial document</a></p>
+		</td>
+	</tr>
+	</table>
+<h2>Assignments</h2>
+<p>Notes:</p>
+<p>1. Compress all files into a .zip file whose name is composed of student name and ID.</p>
+<p>2. For the programming assignments, you can use any programming language as 
+you like. </p>
+<p>3. All the documents you hand in, including comments in the source codes, should be in English.</p>
+<p>4. Send your solutions to <a href="mailto:pattern_recognition@outlook.com">
+pattern_recognition@outlook.com</a> </p>
+<p>Marks</p>
+<p>1. Marks for assignment1, <a href="assignments/ass1工学.xlsx">工学班</a>，<a href="assignments/ass1工程.xlsx">工程班</a></p>
+<p>2. Marks for assignment2, <a href="assignments/ass2工学.xlsx">工学班</a>，<a href="assignments/ass2工程.xlsx">工程班</a></p>
+
+<h2>Final Projects</h2>
+<h3>Notes:</h3>
+<p>1. Compress all files into a .rar or .zip file whose name is composed of student name and ID (such as "ID_name_project.zip").</p>
+<p>2. All the documents you hand in should be in English.</p>
+
+<h3>Requirement details for the program and the report:</h3>
+<p><u><b>Project contents</b></u></p>
+<ul><li>You can choose any related topics which you are interested in as your final project.</li></ul>
+<ul><li>The team size should not be greater than 3 students.</li></ul>
+
+<p><u><b>Program</b></u> (30 points)</p>
+<ul><li>You should submit your program for the final project and a readme file with instructions on how to run the program. </li></ul>
+
+<p><u><b>Report</b></u> (35 points)</p>
+<ul><li>Your report should be written in English and contain the following contents:</li></ul>
+<ul><p>1. Describe the problem you want to solve;</p><p/>
+<p>2. A survey on the selected topic and related methds;</p><p/>
+<p>3. The structure (or workflow) and functionality of your program;</p><p/>
+<p>4. Performance evaluation;</p><p/>
+<p>5. Advantages and disadvantages of your method;</p><p/>
+</ul>
+<p><u><b>Marking scheme</b></u></p>
+<table border="0">
+	<tr>
+		<td width="350"><p>Program: </p><p>Origninality of the selected topic or applied method (published since 2010) (10');</p>
+		<p>Performance (15')</p><p>Complexity of the project (workload) (5')</p></td>
+		<td><p>Report:</p><p>1. (5'); 2. (10'); 3.(5'); 4. (10'); 5. (3'); Clarity (2')</p></td>
+	</tr>
+	<tr>
+		<td><p></p></td>
+		<td><p></p></td>
+	</tr>
+	</tr>
+</table>
+
+<h2>Main References</h2>
+<table border="0" width="500" id="table2">
+	<tr>
+		<td width="10">　</td>
+		<td width="131" align="center">
+		<img border="0" src="img/book.jpg" width="150" ></font></td>
+		<td align="center"><p>《机器学习》</p><p>周志华</p><p>清华大学出版社<p></td>
+	</tr>
+</table>
+<h2>Other Related Materials</h2>
+<table border="0" width="500" id="table2">
+	<tr>
+		<td width="10">　</td>
+		<td width="131" align="center">
+		<img border="0" src="img/book2.jpg" width="150" ></font></td>
+		<td align="center"><p>Pattern Classification</p><p>Richard O. Duda, Peter E. Hart, David G. Stork</p></td>
+	</tr>
+	<tr>
+		<td width="10">　</td>
+		<td width="131" align="center">
+		<img border="0" src="img/book3.jpg" width="150" ></font></td>
+		<td align="center"><p>模式识别</p><p>张学工</p><p>清华大学出版社<p></td>
+	</tr>
+</table>
+
+<p/>
+<p/>
+<p align="right">Created on: Sep. 22, 2013</p>
+<p align="right">Last updated on: Dec. 4, 2013</p>
+
+</body>
+
+</html>
